@@ -87,14 +87,15 @@ nav {
 }
 
 .btn-secondary {
-    background-color: var(--white);
-    color: var(--text-brown);
+    background-color: var(--surface-dark);
+    color: var(--primary-blue);
     box-shadow: 0 4px 0 var(--border-color);
 }
 
 .btn:hover {
     transform: translateY(-4px);
     box-shadow: 0 8px 0 var(--border-color);
+    color: var(--primary-gold);
 }
 
 .btn:active {
