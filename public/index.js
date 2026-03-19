@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     // Bubble Generator
     const bubbleContainer = document.getElementById('bubble-container');
-    const colors = ['rgba(253, 184, 19, 0.2)', 'rgba(0, 174, 239, 0.2)', 'rgba(255, 209, 220, 0.3)'];
+    const colors = ['rgba(253, 184, 19, 0.2)', 'rgba(255, 255, 255, 0.4)', 'rgba(255, 255, 255, 0.2)'];
 
     function createBubble() {
         const bubble = document.createElement('div');
