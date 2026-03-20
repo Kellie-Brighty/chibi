@@ -1,0 +1,6 @@
+node_modules/
+.env
+data/*.json
+public/test_portrait_*.png
+public/child_playing_*.png
+.DS_Store

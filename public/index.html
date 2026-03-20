@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chibi Revolution | Grok's Chibi World 🌟</title>
+    <title>Chibification | Grok's Chibi World 🌟</title>
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,10 +11,15 @@
 </head>
 <body>
     <div id="bubble-container"></div>
+    <div class="clouds-decor">
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+    </div>
     
     <header>
         <nav class="container">
-            <div class="logo">Chibi<span>fication</span></div>
+            <div class="logo">CHIBI<span>FICATION</span></div>
             <div class="social-links">
                 <a href="https://t.me/chibionerc" target="_blank" class="btn btn-secondary">Telegram</a>
                 <a href="https://x.com/elonmusk/status/2034546076318122165?s=46" target="_blank" class="btn btn-secondary">View on X</a>
@@ -25,61 +30,142 @@
     <main>
         <section class="hero container">
             <div class="hero-content">
-                <h1>The Chibi Revolution is Here! 🌟</h1>
-                <p>Experience the Chibification of AI with Grok's newest feature. Cute, vibrant, and totally animated!</p>
-                <div class="ca-box reveal">
+                <h1>CHIBI ✨</h1>
+                <div class="ca-box">
                     <code>0x1aD797dAa9034A34e634B398c82b25F249280673</code>
-                    <button id="copy-btn" class="btn-copy">Copy CA</button>
+                    <button id="copy-btn" class="btn btn-secondary btn-copy">COPY CA</button>
                 </div>
-                <a href="https://t.me/chibionerc" target="_blank" class="btn btn-primary bounce">Join the Revolution</a>
+                <p>The cutest movement on Mars! 🚀 Transform yourself into a legendary 3D Chibi and join the most adorable movement in the galaxy.</p>
+                <div class="hero-actions">
+                    <a href="#chibifier" class="btn btn-primary">CHIBIFY ME NOW!</a>
+                    <a href="https://t.me/chibionerc" target="_blank" class="btn btn-secondary">JOIN THE ARMY</a>
+                </div>
             </div>
             <div class="hero-image">
-                <img src="chibi-banner.jpg" alt="Chibi Revolution Banner" class="cartoon-border">
+                <img src="new-chibi.jpg" alt="The Master Chibi" class="hero-highlight">
             </div>
         </section>
 
-        <section class="chart container reveal">
-            <h2 class="section-title">Market Data</h2>
-            <div class="iframe-wrapper">
-                <iframe src="https://dexscreener.com/ethereum/0x1aD797dAa9034A34e634B398c82b25F249280673?embed=1&theme=dark&info=0" frameborder="0"></iframe>
+        <div class="divider wavy"></div>
+
+        <section id="chibifier" class="container reveal">
+            <div class="section-header">
+                <h2 class="section-title">CHIBIFY <span>YOURSELF</span></h2>
+                <p class="section-desc">Transform your digital identity into a viral 3D masterpiece in seconds. ✨</p>
+            </div>
+            
+            <div class="chibifier-container magic-pop">
+                    <!-- ... Chibifier steps ... -->
+                <div id="upload-state" class="chibifier-step">
+                    <div class="upload-zone" id="drop-zone">
+                        <input type="file" id="file-input" accept="image/*" hidden>
+                        <div class="upload-content">
+                            <span class="upload-icon">📸</span>
+                            <p>Click to upload or drag & drop</p>
+                            <span class="upload-hint">JPG, PNG or WEBP (Max 5MB)</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="processing-state" class="chibifier-step hidden">
+                    <div class="magic-loader">
+                        <div class="wand">🪄</div>
+                        <div class="sparkles">✨✨✨</div>
+                    </div>
+                    <p id="status-text">Gathering Pixie Dust...</p>
+                    <div class="progress-bar"><div class="progress-fill"></div></div>
+                </div>
+
+                <div id="result-state" class="chibifier-step hidden">
+                    <div class="result-layout">
+                        <div class="comparison-grid">
+                            <div class="image-box">
+                                <span class="badge">BEFORE</span>
+                                <img id="original-image-display" src="" alt="Original Photo">
+                            </div>
+                            <div class="image-box magic-glow">
+                                <span class="badge badge-primary">AFTER</span>
+                                <img id="result-image" src="" alt="Chibi Result">
+                                <div class="watermark">$CHIBI</div>
+                            </div>
+                        </div>
+                        <div class="result-actions">
+                            <button class="action-btn download-btn" id="download-btn">💾 Download</button>
+                            <button class="action-btn copy-btn" id="copy-img-btn">📋 Copy Image</button>
+                            <button class="action-btn share-btn" id="share-btn">🚀 Share on X</button>
+                            <button id="reset-btn" class="btn btn-outline">
+                                <span>🔄</span> Try Another
+                            </button>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section class="gallery container">
-            <h2 class="section-title">Chibi Gallery</h2>
+        <div class="divider wavy"></div>
+
+        <section class="gallery container reveal">
+            <h2 class="section-title">CHIBI <span>SHOWCASE</span></h2>
             <div class="gallery-grid">
                 <div class="gallery-item reveal">
-                    <img src="chibi-image.jpg" alt="Chibi Illustration" class="cartoon-border">
-                    <p class="caption">"Super Cute!"</p>
+                    <div class="card-3d">
+                        <img src="chibi-image.jpg" alt="Chibi Illustration">
+                        <div class="card-footer">"Super Cute!"</div>
+                    </div>
                 </div>
                 <div class="gallery-item reveal">
-                    <img src="chibi-proof-image.jpg" alt="Grok Chibi Proof" class="cartoon-border">
-                    <p class="caption">AI-Native Art</p>
+                    <div class="card-3d">
+                        <img src="chibi-proof-image.jpg" alt="Grok Chibi Proof">
+                        <div class="card-footer">AI-Native Art</div>
+                    </div>
+                </div>
+                <div class="gallery-item reveal">
+                    <div class="card-3d">
+                        <img src="new-chibi.jpg" alt="The Master Chibi">
+                        <div class="card-footer">Legendary Tier</div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <div class="divider wavy"></div>
 
         <section class="features container">
             <div class="feature-card reveal">
-                <span class="feature-icon">✨</span>
-                <h3>Chibi Vibes</h3>
-                <p>Pure Chibification of AI. Turn your wildest dreams into cute, animated reality with Grok.</p>
+                <div class="icon-3d">✨</div>
+                <h3>CHIBI MAGIC</h3>
+                <p>Pure Chibification technology. Transform any image into a viral 3D masterpiece instantly.</p>
             </div>
             <div class="feature-card reveal">
-                <span class="feature-icon">🤝</span>
-                <h3>Chibi Community</h3>
-                <p>Step into the revolution. Join thousands of creators sharing the 'Super Cute' aesthetic.</p>
+                <div class="icon-3d">🚀</div>
+                <h3>TO THE MARS</h3>
+                <p>Built for the $CHIBI army. Join the most energetic community in the crypto galaxy.</p>
             </div>
             <div class="feature-card reveal">
-                <span class="feature-icon">🔥</span>
-                <h3>AI Revolution</h3>
-                <p>More than just a template. Chibi is the future of playful, social AI expression on X.</p>
+                <div class="icon-3d">🤝</div>
+                <h3>COMMUNITY DRIVEN</h3>
+                <p>Pure utility-play for the Chibi revolution. Owned by the people, loved by the AI.</p>
+            </div>
+        </section>
+
+        <div class="divider wavy"></div>
+
+        <section class="chart container reveal">
+            <h2 class="section-title">MARKET <span>DATA</span></h2>
+            <div class="chart-monitor">
+                <div class="monitor-header">
+                    <div class="dots"><span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span></div>
+                    <div class="monitor-title">DESTINATION: MARS 🚀</div>
+                </div>
+                <div class="iframe-wrapper">
+                    <iframe src="https://dexscreener.com/ethereum/0x1aD797dAa9034A34e634B398c82b25F249280673?embed=1&theme=light&info=0" frameborder="0"></iframe>
+                </div>
             </div>
         </section>
     </main>
 
     <footer class="container">
-        <p>&copy; 2026 Chibi Revolution. Build with Love & Grok. 💖</p>
+        <p>&copy; 2026 Chibification. Build with Love & Grok. 💖</p>
     </footer>
 
     <script src="index.js"></script>
