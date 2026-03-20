@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node init && node server.js",
+    "build": "node init && echo 'No build needed'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
